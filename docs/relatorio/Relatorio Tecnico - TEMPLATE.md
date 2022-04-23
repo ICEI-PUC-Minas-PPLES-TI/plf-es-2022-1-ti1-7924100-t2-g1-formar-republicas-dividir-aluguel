@@ -1,21 +1,17 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+RepApp - Achando republicas pra você!
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Trabalho Interdisciplinar: Aplicações Web
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+- Carlos Emanuel Silva e Melo Oliveira
+- Pedro Silva Gontijo
+- Yan Rodrigues Nalon
 
 # Estrutura do Documento
 
@@ -56,36 +52,17 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Ingressar em uma universidade é um grande evento na vida dos jovens e junto dele vem desafios que devem ser enfrentados pelos mesmos, dentre eles o mais problemático é mudar-se de cidade para estudar, e consequentemente, encontrar um novo lugar para morar sem ter grandes despesas. Achar repúblicas para morar não é algo fácil, principalmente para quem não tem nenhum meio social em um ambiente novo. É preciso ter contatos e procurar pessoas que tenham esse mesmo interesse, algo que de fato não é simples dada pela formação das bolhas e desconexões sociais. Gastar um grande valor com aluguel de imóveis não é o ideal para um universitário vitíma da desconexão social, pois claramente seria melhor que o valor de um imóvel fosse dividido com outras pessoas e poupasse o dinheiro de todos. 
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O objetivo geral deste trabalho é desenvolver uma aplicação que permita ingressar em repúblicas, encontrar pessoas para formar uma república ou para dividir o aluguel de um imóvel.
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos do projeto é possível citar:
+- Permitir o usuário criar repúblicas ou encontrar uma baseada em suas preferências.
+- Criar funcionalidades que permitam o usuário filtrar a busca de pessoas com quem deseja dividir o aluguel.
+- Permitir que o usuário tenha controle sobre o quanto está pagando de aluguel, seja dividido com alguém ou participando de uma república.
+
 
 ## Justificativa
 
@@ -124,38 +101,16 @@
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+Nesta próxima parte do documento será mostrado todo o processo de Design Thinking criado no Miro que gerou as personas, historias de usuários, requisitos funcionais / não funcionais e as metas do projeto.
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+1. Thais é uma mulher de 37 anos e trabalha com arquitetura autônoma sempre prezando pelo respeito próximo. Ela é muito reservada e introspectiva. Socialmente ele trata todos com muito respeito, mesmo sendo um amigo intimo. Ela cultiva plantas em seu tempo livre e ama o espaço do seu apartamento. Thais pensa em se mudar do Brasil, porém não acha ninguém para alugar o apartamento dela pelo fato de ser muito espaçoso e custoso, sendo assim, ela segue focada em tentar uma nova área de atuação no Brasil.
 
+2. Alice tem 22 anos, é estagiária em uma empresa de tecnologia e preza pela agilidade. Alice é introvertida por conta do habito de estar mais online do que na vida real. Ela desenvolve projetos utilizando seu notebook e editores de texto para grandes corporações de tecnologia, porém não se da bem em trabalhos que envolvam interação com pessoas. Ela quer se formar na faculdade e almeja viver tranquila. Alice também quer se mudar para um apartamento mais próximo de sua faculdade, mas não consegue se bancar sozinha.
 
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
+3. Pedro é um engenheiro elétrico de 45 anos e tem uma grande ambição de colecionar videogames antigos. Inspirando-se no Pai, ele criou o habito de colecionar coisas e se firmou nos consoles antigos. Pedro é comunicativo, competente e satisfeito com a sua área, estando sempre de alto astral. Ele utiliza apenas o seu celular para trabalhar tambem como unico método de comunicação. Pedro tem um imóvel parado que não rende nada e ele deseja achar alguém para alugar este imovél.
+
 
 
 ## Histórias de Usuários
@@ -164,19 +119,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+|Usuário (Alocador)  | Achar alguem para dividir um imovel          | Economizar dinheiro              |
+|Usuário (Dono de Imóvel)       | Descobrir um jeito de alugar imovéis grandes e custosos                 | Gerar renda e cumprir os meus objetivos |
 
 ## Requisitos
 
