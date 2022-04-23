@@ -149,28 +149,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-005| O email dos usuários deve ser verificado |  MÉDIA | 
 |RNF-006| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -185,12 +163,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+Nossas principais interfaces são a criação de repúblicas e a home page. Ambas contemplam os requisitos fundamentais do nosso projeto, possibilitando que o usuário consiga encontrar alguem para dividir aluguel. Foram pensadas baseadas na dualidade entre criar ou entrar em um grupo social do qual compartilha o mesmo interesse que o usuário. Como se trata de dividir aluguel, então a criação deveria ser de repúblicas. 
 
 ## User Flow
 
