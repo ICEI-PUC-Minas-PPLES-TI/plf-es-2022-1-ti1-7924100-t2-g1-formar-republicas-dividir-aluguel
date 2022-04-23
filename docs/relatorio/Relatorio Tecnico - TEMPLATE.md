@@ -119,8 +119,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário (Alocador)  | Achar alguem para dividir um imovel          | Economizar dinheiro              |
-|Usuário (Dono de Imóvel)       | Descobrir um jeito de alugar imovéis grandes e custosos                 | Gerar renda e cumprir os meus objetivos |
+|Estudante  | Achar alguem para dividir um imovel          | Economizar dinheiro              |
+|Dono de Imóvel       | Descobrir um jeito de alugar imovéis grandes e custosos                 | Gerar renda e cumprir os meus objetivos |
 
 ## Requisitos
 
