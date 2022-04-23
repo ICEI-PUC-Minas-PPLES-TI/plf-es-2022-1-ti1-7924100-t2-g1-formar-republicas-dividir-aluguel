@@ -130,16 +130,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Cadastro de usuário | ALTA | 
+|RF-002| Usuário poder criar repúblicas | ALTA | 
+|RF-003| Usuário poder entrar em repúblicas | ALTA | 
+|RF-004| Usuário poder pesquisar repúblicas | MÉDIA | 
+|RF-004| Cadastro de imóvel | MÉDIA | 
+|RF-005| Pagina exclusiva para pessoas que querem dividir aluguel | MÉDIA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Deve existir um banco de dados com segurança |  ALTA | 
+|RNF-002| Deve existir uma data de alteração das informações das republicas |  ALTA | 
+|RNF-003| A barra de pesquisa não deve demorar a achar resultados |  MÉDIA | 
+|RNF-004| O email dos usuários deve ser verificado |  MÉDIA | 
+|RNF-005| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
@@ -256,14 +263,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
-
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
+|Processo de Design Thinking  | Miro |  https://miro.com/app/board/uXjVOBTKAsA=/ | 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g1-formar-republicas-dividir-aluguel | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
 |Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+
+O editor de código a ser usado é o Visual Studio Code por conta da igualdade de uso dos envolvidos no projeto. Utilizamos o WhatsApp e o Discord como ferramentas de comunicação e participação de reuniões semanais tambem por igualdade de uso. Também fizemos uso do Miro e Figma devido a facilidade para diagramação do processo de Design Thinking e criação de Wireframes e User Flows.  
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
