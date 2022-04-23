@@ -144,9 +144,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| Deve existir um banco de dados com segurança |  ALTA | 
 |RNF-002| Deve existir uma data de alteração das informações das republicas |  ALTA | 
-|RNF-003| A barra de pesquisa não deve demorar a achar resultados |  MÉDIA | 
-|RNF-004| O email dos usuários deve ser verificado |  MÉDIA | 
-|RNF-005| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-003| Os grupos de república caso não atualizados devem ser excluidos |  ALTA | 
+|RNF-004| A barra de pesquisa não deve demorar a achar resultados |  MÉDIA | 
+|RNF-005| O email dos usuários deve ser verificado |  MÉDIA | 
+|RNF-006| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
