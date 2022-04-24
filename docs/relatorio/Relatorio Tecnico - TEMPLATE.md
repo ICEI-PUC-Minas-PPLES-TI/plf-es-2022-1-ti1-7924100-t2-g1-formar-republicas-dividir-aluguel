@@ -167,7 +167,7 @@ Nossas principais interfaces são a criação de repúblicas e a home page. Amba
 
 ## User Flow
 
-![User Flow do RepApp](images/repapp_userflow.jpg)
+![User Flow do RepApp](images/userflow_repapp.jpg)
 
 
 ## Wireframes
@@ -187,7 +187,7 @@ Nossas principais interfaces são a criação de repúblicas e a home page. Amba
 > 
 > **Exemplo**:
 > 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+> ![Exemplo de Wireframe](images/Wireframe.pdf)
 
 
 # Metodologia
