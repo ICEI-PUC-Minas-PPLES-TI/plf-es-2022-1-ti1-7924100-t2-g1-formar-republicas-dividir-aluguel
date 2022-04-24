@@ -66,19 +66,7 @@ Como objetivos específicos do projeto é possível citar:
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O nosso interesse em trabalhar com essa aplicação foi motivado pela solução ainda inexistente para um problema tão amplo e atual. Sendo assim, através dos dados coletados em pesquisas e entrevistas conseguimos identificar que o nosso problema é real e afeta um grupo nichado de individuos, assim comprovando a existencia de uma desconexão social e ao final provocando uma perda de fonte de renda. Nós escolhemos a criação de um sistema de online de montagem de repúblicas devido ao fato de ser principal fator que soluciona um dos lados do nosso projeto. O próximo passo seria elaborar uma forma de incorporar donos de imóveis ao nosso projeto.
 
 ## Público-Alvo
 
@@ -95,8 +83,6 @@ Nesta próxima parte do documento será mostrado todo o processo de Design Think
 2. Alice tem 22 anos, é estagiária em uma empresa de tecnologia e preza pela agilidade. Alice é introvertida por conta do habito de estar mais online do que na vida real. Ela desenvolve projetos utilizando seu notebook e editores de texto para grandes corporações de tecnologia, porém não se da bem em trabalhos que envolvam interação com pessoas. Ela quer se formar na faculdade e almeja viver tranquila. Alice também quer se mudar para um apartamento mais próximo de sua faculdade, mas não consegue se bancar sozinha.
 
 3. Pedro é um engenheiro elétrico de 45 anos e tem uma grande ambição de colecionar videogames antigos. Inspirando-se no Pai, ele criou o habito de colecionar coisas e se firmou nos consoles antigos. Pedro é comunicativo, competente e satisfeito com a sua área, estando sempre de alto astral. Ele utiliza apenas o seu celular para trabalhar tambem como unico método de comunicação. Pedro tem um imóvel parado que não rende nada e ele deseja achar alguém para alugar este imovél.
-
-
 
 ## Histórias de Usuários
 
