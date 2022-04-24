@@ -172,7 +172,7 @@ Nossas principais interfaces são a criação de repúblicas e a home page. Amba
 
 ## Wireframes
 
-![Exemplo de Wireframe](images/wireframe_reapp.png)
+![Exemplo de Wireframe](images/wireframe_repapp.png)
 
 # Metodologia
 
