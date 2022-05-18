@@ -6,14 +6,47 @@
     Login ou senha não encontrados 
     -->
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
         <title>RepApp</title>
     </head>
     <body>
-        
+        <h1>RepApp</h1>        
+        <h2>Dados pessoais: </h2>
+        <div>
+            <label for="nome">Nome: </label>
+            <input type="text" name="Nome" size="40" />
+        </div>
+        <div>
+            <label for="nascimento">Data de nascimento: </label>
+            <input type="date" name="Data de nascimento (dd/mm/aa)" size="40" />
+        </div>
+        <div>
+            <label for="curso">Ocupação ou Curso: </label>
+            <input type="text" name="Ocupação ou Curso" size="40" />
+        </div>
+        <div>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="Telefone" size="40" required placeholder="(xx) xxxxx-xxxx"/>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" size="40"/>
+        </div>
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" name="Senha" size="40" />
+        </div>
+        <div>
+            <label for="confirmesenha">Digite a senha novamente: </label>
+            <input type="password" name="ConfirmeaSenha" size="40" />
+        </div>
+        <div>
+            <button name="button">Avançar</button>
+        </div>
     </body>
     </html>
