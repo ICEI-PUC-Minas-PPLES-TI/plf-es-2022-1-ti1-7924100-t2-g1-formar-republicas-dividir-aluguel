@@ -174,10 +174,11 @@ O editor de código a ser usado é o Visual Studio Code por conta da igualdade d
 Para a gestão do código fonte da aplicação será utilizado o processo Git Feature Branch Workflow em que todo novo recurso é desenvolvido em uma ramificação diferente da ramificação principal do projeto, pois desse modo é possível que cada membro da equipe trabalhe em uma nova funcionalidade sem perturbar o código principal e ao final de cada desenvolvimento é implementado a branch master.
 
 Branchs:
-- master: Branch do código fonte e projeto principal
+- master: Branch do código fonte e lançamento do projeto quando finalizado.
 - develop: Branch que merge todas as features para analise antes de serem incorporadas ao codigo principal.
-- feature: Branch para desenvolvimento de features e à ser mergida a 'develop' quando finalizada.
-- bug: Branch criada especificamente para corrigir funcionalidade com problemas, a ser mergida a 'develop' quando consertada.
+- lgcp: Branch para desenvolvimento do Login e Cadastro.
+- ceai: Branch para desenvolvimento do Cadastro de Entidades e Apresentação de Informações.
+- tp: Branch para desenvolvimento do Template em HTML e CSS do projeto.
 
 Tags:
 - bug: Funcionalidade com problemas
