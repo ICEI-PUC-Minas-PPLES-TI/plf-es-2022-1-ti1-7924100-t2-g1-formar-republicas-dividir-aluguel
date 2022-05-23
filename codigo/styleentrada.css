@@ -1,0 +1,19 @@
+body{
+    background-color: blueviolet;
+    width: 300px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+p{
+    font-size: small;
+    text-align: right;
+}
+.botao{
+    text-align: center;
+    margin: 10%;
+}
+p1{
+    font-size: small;
+    text-align: center;
+}

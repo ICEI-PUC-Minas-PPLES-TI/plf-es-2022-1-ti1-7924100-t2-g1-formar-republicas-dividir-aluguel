@@ -1,0 +1,16 @@
+body{
+    background-color: blueviolet;
+    width: 300px;
+    color: aliceblue;
+    margin: auto;
+}
+p{
+    text-align: center;
+}
+.botao{
+    text-align: center;
+    margin: 10%;
+}
+.voltar{
+    text-align: center;
+}
