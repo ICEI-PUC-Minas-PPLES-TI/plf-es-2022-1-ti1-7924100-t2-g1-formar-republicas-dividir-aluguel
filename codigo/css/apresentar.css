@@ -1,0 +1,18 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7634FA;
+}
+
+.logo{
+    height: 150px;
+    padding: 10px;
+}
+
+.container{ padding: 30px; }
+
+.cartao{ margin: 20px 0px; }
+
+.card{ width: 18rem; }
+

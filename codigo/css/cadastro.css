@@ -1,0 +1,27 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7634FA;
+}
+
+.logo{
+    height: 150px;
+    padding: 10px;
+}
+
+.formulario-criar-republica{
+    margin: 25px;
+}
+
+div#container{
+    overflow-x: auto;
+}
+
+.table{
+    margin: 25px;
+}
+
+.btn{
+    margin: 25px;
+}
