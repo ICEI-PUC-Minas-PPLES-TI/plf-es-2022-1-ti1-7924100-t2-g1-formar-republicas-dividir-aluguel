@@ -1,21 +1,25 @@
 ( ()=>{
     let btnCriar = document.querySelector("#btn-cadastrar");
-    let btnBuscar = document.querySelector("#btn-buscar");
+
+    window.onload = () =>{
+        ApresentarCadastro();
+    }
 
     btnCriar.addEventListener("click", (event)=>{
     //Não atualizar a página
     event.preventDefault();
-  
+ 
     //Selecionar formulário
     let formulario = document.querySelector(".formulario-criar-republica");
     
-   if(ValidarFormulario()){
+    if(ValidarFormulario()){
     let novaRepublica = ExtrairInformacoes(formulario); 
 
     CriarRepublica(novaRepublica);
 
+    ApresentarCadastro();
+
     formulario.reset();
-    btnBuscar.disabled = false;
    }
 
    else{
@@ -25,8 +29,10 @@
 
     function ExtrairInformacoes(formulario){
         let republica = {
+            id: GerarIdAutomatico(),
             nome: formulario.nome.value,
             numero: formulario.numero.value,
+            descricao: formulario.descricao.value,
             local: formulario.localizacao.value,
             valor: formulario.valor.value,
             status: formulario.status.value
@@ -36,7 +42,7 @@
     }
 
     function CarregarRepublicas(){
-        let dadosRepublicas = localStorage.getItem('db');
+        let dadosRepublicas = sessionStorage.getItem('db');
         let objRepublica = {};
 
         if(dadosRepublicas != null){
@@ -59,21 +65,53 @@
     }
 
     function SalvarRepublica(republica){
-        localStorage.setItem('db', JSON.stringify(republica));
+        sessionStorage.setItem('db', JSON.stringify(republica));
         alert("República criada com sucesso.")
     }
 
     function ValidarFormulario(){
         let nome = document.forms["form"]["nome"].value;
         let numero = document.forms["form"]["numero"].value;
+        let descricao = document.forms["form"]["descricao"].value;
         let localizacao = document.forms["form"]["localizacao"].value;
         let valor = document.forms["form"]["valor"].value;
 
-        if (nome == "" || numero == "" || localizacao == "" || valor == ""){
+        if (nome == "" || numero == "" || descricao == "" || localizacao == "" || valor == ""){
             alert("Preencha todo o formúlario");
             return false;
         }
 
         return true;
+    }
+
+    function GerarIdAutomatico(){
+        let objRepublica = CarregarRepublicas();
+        let id = objRepublica.republica.length;
+        return id+1;
+    }
+
+    function ApresentarCadastro(){
+        let republicas = CarregarRepublicas();
+        MontarRepublica(republicas)
+    }
+
+    function MontarRepublica(republica){
+        let tabela = document.querySelector("#tabela-republica");
+        tabela.innerHTML = " ";
+    
+        republica.republica.forEach(element => {
+            let novaLinha = document.createElement("tr");
+
+            novaLinha.appendChild(CriarCampo(element.id));
+            novaLinha.appendChild(CriarCampo(element.nome));
+
+            tabela.appendChild(novaLinha);
+        });
+    }
+
+    function CriarCampo(conteudo){
+        let novoCampo = document.createElement("td");
+        novoCampo.textContent = conteudo; 
+        return novoCampo;
     }
 })()
