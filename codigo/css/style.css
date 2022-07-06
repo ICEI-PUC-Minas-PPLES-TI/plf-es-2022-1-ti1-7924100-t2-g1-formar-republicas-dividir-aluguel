@@ -1,49 +1,84 @@
-.cabecalho{
+body{
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #7634FA;
+    overflow: hidden;
+    height: 63px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover{
+    background-color: #ddd;
+    color: #000;
+}
+
+.container{
+    height: 63px;
+
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
-    background-color: #7634FA;
 }
 
 .logo{
-    height: 150px;
-    padding: 10px;
+    max-width: 200px;
 }
 
-.caixa{
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    padding: 100px 0px;
-    border: solid 2.5px #000000;
+.side-nav{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #7634FA;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
 }
 
-.caixa__link{
+.side-nav a{
+    padding: 10px 10px 10px 30px;
     text-decoration: none;
-    color: #FFFFFF;
-    background-color: #7634FA;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
+    font-size: 22px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
 }
 
-.rodape{
-    background-color: #7634FA;
-    color: #FFFFFF;
-    margin-top: 20px;
-    padding: 25px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.side-nav a:hover{
+    color: #fff;
 }
 
-@media (max-width: 576px){
-    .caixa{
-        flex-wrap: wrap;
-    }
+.side-nav .btn-fechar{
+    position: absolute;
+    top:0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50;
+}
 
-    .caixa__link{
-        width: 100%;
-        margin: 20px;
-    }
+#main{
+    transition:margin-left 0.5s;
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+@media (max-width:568px){
+    .navbar-nav{display: none;}
 } 

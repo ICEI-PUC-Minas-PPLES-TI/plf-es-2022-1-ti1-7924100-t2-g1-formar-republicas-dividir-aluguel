@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RepApp | Visualizar</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="open-slide">
+                <a href="#" id="icon">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                    </svg>
+                </a>
+            </span>
+
+            <div class="container">
+                <img src="img/logo.png" alt="logo do site" class="logo">
+            </div>
+        </nav>
+    
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-fechar">&times;</a>
+            <a href="home.html">Criar</a>
+            <a href="visualizar.html">Visualizar</a>
+        </div>
+    </header>
+
+    <main>
+        <div id="main">
+            <div>
+                <table class="table table-striped" id="republica">
+                    <thead>
+                        <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Num</th>
+                            <th scope="col">Localizacao</th>
+                            <th scope="col">Valor</th>
+                            <th scope="col">Status</th>
+                    </thead>
+                    <tbody id="tabela-republica">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/visualizar.js"></script>
+</body>
+</html>
