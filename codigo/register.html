@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RepApp</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/lgcp.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+    <main>
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-3">
+
+                    <div class="register-form">
+
+                        <img src="img/logo.png" class="logo" alt="Logo">
+
+                        <form>
+
+                                <br><h2>Dados Pessoais:</h2>
+
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="register-name" placeholder="Nome">
+                                    <label for="register-name">Nome</label>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="date" class="form-control" id="register-age" placeholder="Idade">
+                                    <label for="register-age">Data de Nascimento</label>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="register-course" placeholder="Curso">
+                                    <label for="register-course">Curso</label>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="phone" class="form-control" id="register-phone" placeholder="Telefone" maxlength="16" onkeypress="return isNumberKey(event)">
+                                    <label for="register-phone">Telefone</label>
+                                </div>
+
+                                <br><h2>Credenciais:</h2>
+
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="register-email" placeholder="name@example.com">
+                                    <label for="register-email">Email</label>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control" id="register-password" placeholder="Password">
+                                    <label for="register-password">Senha</label>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control" id="register-password-repeat" placeholder="PasswordRepeat">
+                                    <label for="register-password-repeat">Digite sua senha novamente</label>
+                                </div>
+
+                                <br><button type="submit" class="btn btn-primary" id="register-btn">Cadastrar</button><br><br>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+     <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/userscript.js"></script>
+
+    <script>document.getElementById("register-btn").addEventListener('click', submitRegister); document.getElementById("register-phone").addEventListener('keydown', colocarParenteses);</script>
+
+</body>
+</html>
