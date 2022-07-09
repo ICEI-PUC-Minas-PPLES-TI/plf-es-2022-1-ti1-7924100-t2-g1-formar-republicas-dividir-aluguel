@@ -1,0 +1,23 @@
+body{ 
+    color: aliceblue;
+    background-color: blueviolet;
+    width: 300px;
+    margin: auto;
+}
+h1{ 
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.botao{
+    margin: 2%;
+    text-align: left;
+}
+.entrada{
+    margin: 1%;
+}
