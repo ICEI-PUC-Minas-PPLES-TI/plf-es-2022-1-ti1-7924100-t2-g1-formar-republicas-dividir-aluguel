@@ -164,7 +164,7 @@ A metodologia adotada no processo de desenvolvimento do nosso projeto foi basead
 |-----------|-------------------------|---------------|
 |Processo de Design Thinking  | Miro |  https://miro.com/app/board/uXjVOBTKAsA=/ | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g1-formar-republicas-dividir-aluguel | 
-|Hospedagem do site | Heroku |  https://repapp-tiaw.herokuapp.com/ | 
+|Hospedagem do site | Replit |  https://repapp.yanrodrigues3.repl.co/ | 
 |Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/proto/fhJS3uuKM50vQu6Wp6zFCa/Wireframe?node-id=1%3A3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A3 | 
 
 O editor de código a ser usado é o Visual Studio Code por conta da igualdade de uso dos envolvidos no projeto. Utilizamos o WhatsApp e o Discord como ferramentas de comunicação e participação de reuniões semanais tambem por igualdade de uso. Também fizemos uso do Miro e Figma tanto pela facilidade para diagramação do processo de Design Thinking quanto para a criação de Wireframes e User Flows. O serviço de hospedagem escolhido foi o Herokuapp por ser gratuito e simples de usar.
@@ -191,89 +191,27 @@ Quanto as commits, todas são catalogadas no próprio repositório do projeto ju
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
-
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A solução encontrada foi criar um aplicativo web que permitisse o usuário: Criar uma conta, criar repúblicas e disponibilizar republicas para que outros usuários entrem.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+Nos utilizamos HTML, CSS & JavaScript para montar o aplicativo. Também utilizamos o framework Bootstrap para agilizar o trabalho, o Photoshop para criar a logo, o Github para subir as novas adições ao projeto e o Whatsapp para comunicação da equipe.
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+Nosso projeto consiste em um sistema de Cadastro e Login utilizando o Local Storage para salvar os cadastros e um sistema de cadastro de repúblicas utilizando tambem o Local Storage para guardar as informações das republicas. Quando o usuário loga, é salvo no Session Storage as informações capturadas do Local Storage, quando o usuário está logado e clica em Logout o Session Storage é limpo. 
+![Exemplo de Arquitetura](images/Diagrama.png)
 
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
-
-## Plano de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
-## Registros de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
+Um usuário que precisa de uma república mas não conhece ninguem que compartilha do mesmo desejo pode entrar no RepApp e localizar uma republica que precisa de novos integrantes, solucionando o caso de desconexão social.
 
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+- https://css-tricks.com/
+- https://www.youtube.com/
+- https://getbootstrap.com/
