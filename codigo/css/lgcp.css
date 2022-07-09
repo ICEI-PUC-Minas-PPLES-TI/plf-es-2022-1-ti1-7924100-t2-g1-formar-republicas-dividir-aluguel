@@ -1,0 +1,105 @@
+#registerText {
+    margin-top: 9px;
+}
+
+.login-form {
+    margin-top: 250px;
+}
+
+.logo {
+    margin-left: -100px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #5C16C5 !important;
+}
+
+.register-form {
+  margin-top: 100px;
+}
+
+.register-form img {
+  margin-left: -150px;
+}
+
+.register-form form {
+  margin-left: -74px;
+}
+
+.register-form h2 {
+  color: white;
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ANIMATION */
+
+body {
+    background-color: #FFA500;
+    animation: bgColor 100s infinite linear;
+  }
+  @keyframes bgColor {
+    12.5% {
+      background-color: #88ff00;
+    }
+    25% {
+      background-color: #7700ff;
+    }
+    37.5% {
+      background-color: #FFFF00;
+    }
+    50% {
+      background-color: #7FFF00;
+    }
+    62.5% {
+      background-color: #00FFFF;
+    }
+    75% {
+      background-color: #f700ff;
+    }
+    87.5% {
+      background-color: #FFFF00;
+    }
+    90% {
+      background-color: #ffae00;
+    }
+}
