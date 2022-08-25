@@ -1,0 +1,36 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: T2-G1 - Encontrar alguém para morar junto em repúblicas/Dividir aluguel (RepApp)
+authors:
+  - family-names: Emanuel Silva e Melo Oliveira
+    given-names: Carlos
+  - family-names: Rodrigues Nalon
+    given-names: Yan
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Augusto Lara Soares
+    given-names: Felipe
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alves de Oliveira
+    given-names: Jonathan
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Felipe Dias Ferreira da Rocha
+    given-names: Roberto    
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro
+    given-names: Rommel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: de Assis Alves da Silva
+    given-names: Simone
+
+keywords:
+  - aluguel
+  - repúblicas
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti1-7924100-t2-g1-formar-republicas-dividir-aluguel
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2022-07-14  
